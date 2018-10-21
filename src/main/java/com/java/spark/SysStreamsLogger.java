@@ -2,7 +2,6 @@ package com.java.spark;
 
 import java.io.IOException;
 import java.io.PrintStream;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,7 +20,8 @@ import org.slf4j.LoggerFactory;
 
 public class SysStreamsLogger {
 
-	private static Logger sysOutLogger = LoggerFactory.getLogger("SYSOUT");
+	
+    private static Logger sysOutLogger = LoggerFactory.getLogger("SYSOUT");
 
 	public static final PrintStream sysout = System.out;
 
