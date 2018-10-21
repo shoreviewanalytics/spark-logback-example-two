@@ -1,4 +1,3 @@
-sparkjobspecificlogging2
 
 Another Spark job specific log file example using Logback that can be run on a single node DataStax Enterprise (DSE) cluster with Analytics enabled or a multi-node (DSE) cluster with Analytics enabled.  
 
